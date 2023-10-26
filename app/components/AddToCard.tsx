@@ -3,7 +3,12 @@
 const AddToCard = () => {
   return (
     <div>
-      <button onClick={() => console.log("Clicked")}>Add to card</button>
+      <button
+        className="btn btn-primary"
+        onClick={() => console.log("Clicked")}
+      >
+        Add to card
+      </button>
     </div>
   );
 };
